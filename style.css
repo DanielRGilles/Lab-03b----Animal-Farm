@@ -1,0 +1,17 @@
+#animal-name {
+    font-size: 5rem;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+#cat-image:hover {
+        transform: scale(1.25);
+    }
+#dog-image:hover {
+        transform: scale(1.25);
+    }
+#horse-image:hover {
+        transform: scale(1.25);
+    }
+}
