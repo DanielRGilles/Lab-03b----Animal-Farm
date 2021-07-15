@@ -11,7 +11,10 @@ const catSound = document.getElementById('cat-sound');
 // set event listeners 
 horseEl.addEventListener('click', () => {
     horseSound.play();
-    h1El.textContent = 'Horse'
+    h1El.textContent = 'Horse';
+
+    
+
     
 });
 

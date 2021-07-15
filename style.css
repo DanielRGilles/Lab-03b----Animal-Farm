@@ -1,17 +1,53 @@
+
+
 #animal-name {
-    font-size: 5rem;
+    font-size: 3rem;
     display: block;
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+img {
+    border-radius: 15px;
 }
 #cat-image:hover {
         transform: scale(1.25);
     }
-#dog-image:hover {
-        transform: scale(1.25);
-    }
+
+#cat-image {
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    
+}
+
 #horse-image:hover {
         transform: scale(1.25);
     }
+
+#horse-image {
+    margin-left: 33%; 
+    display: flex;
+    justify-content: center;
+    width: 13%;
 }
+#dog-image:hover {
+    transform: scale(1.25);
+    
+}
+#dog-image {
+margin-left: 66%;
+justify-content:right;
+display: flex;
+width: 13%;
+}
+
+
+
