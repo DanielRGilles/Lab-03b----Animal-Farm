@@ -50,4 +50,6 @@ width: 13%;
 }
 
 
-
+.hidden-text {
+    visibility: hidden;
+}
